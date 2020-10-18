@@ -1,5 +1,5 @@
 body {
-  background-color:#141414;
+  background-color:#212121;
   color: #FFFFFF;
   font-family: 'Lato', sans-serif;
 }
@@ -7,19 +7,19 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #71697A ;
+  border-color: #9B5DE5 ;
   border-width: 5px;
   width: 4%;
 }
 
 h1 {
-  color: #9381FF;
+  color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 
 h3 {
-  color: #9381FF;
+  color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
@@ -40,5 +40,5 @@ a {
 }
 
 a:hover {
-  color: #9381FF;
+  color: #9B5DE5;
 }
