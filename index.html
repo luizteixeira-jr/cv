@@ -5,77 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luiz's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
-
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&family=Raleway:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20px">
-    <tr>
-      <td><img src="images/luiz.png" alt="Luiz Profile Picture"></td>
-      <td>  <h1>Luiz Teixeira </h1>
-        <p><em>Almost a <strong>Full Stack Developer.</strong></em></p>
-        <p>I am a student of Web Development. I ♥ water and coffee, so keep hydrated and alert!</p></td>
-    </tr>
-  </table>
-  <hr>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt=cloud-img">
+    <h1>I'm Luiz Teixeira.</h1>
+    <h2 class="div-web">a web developer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.appbrewery.co/">The Complete Web Development Bootcamp - Angela Yu</a><em>: In Course</em></li>
-  </ul>
-  <hr>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/luiz.png" alt="Luiz's Photo">
+      <h2>Hello.</h2>
+      <p class="bio">I am a student of Web Development. I ♥ water and coffee, so keep hydrated and alert!</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="development-image" src="images/development.svg" alt="Computer Image">
+        <h3>Web Development</h3>
+        <p>My web development services create the basis for your online presence. Are you ready to grow your business?</p>
+      </div>
+      <div class="skill-row">
+        <img class="seo-image" src="images/seo.svg" alt="SEO Image">
+        <h3>Search Engine Optimization</h3>
+        <p>Ranking your website on Google is important to get more traffic and increase your sales. Let me take care of the SEO of your website so you don't have to worry about your ranking.</p>
+      </div>
+    </div>
 
-  <h3>Work Experience</h3>
-  <table cellspacing="10px">
-    <thead>
-      <th>Date</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2020</td>
-        <td>Waiting for you to start an awesome web project!</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
+    <hr>
 
-  <h3>Skills</h3>
-  <table cellspacing="10px">
-    <tr>
-      <td>
-        <table cellspacing="5px">
-          <tr>
-            <td>HTML</td>
-            <td>☆☆☆☆☆</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>☆☆</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="5px">
-          <tr>
-            <td>Javascript</td>
-            <td>☆</td>
-          </tr>
-          <tr>
-            <td>Web Design</td>
-            <td>☆☆☆☆</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3><a href="hobbies.html">My Hobbies</a></h3>
-
-  <h3><a href="contact.html">Contact Me</a></h3>
-
+    <div class="contact-me">
+      <h2>Get In Touch.</h2>
+      <h3 class="idea">You have an idea. I'll develop it for you!</h3>
+      <a class="btn" href="mailto:lzteixeirajr@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://github.com/luizteixeira-jr">GitHub</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/luizteixeirajr/">LinkedIn</a>
+    <p class="copyright">© 2020 Luiz Teixeira.</p>
+  </div>
+  
   
 </body>
 </html>
